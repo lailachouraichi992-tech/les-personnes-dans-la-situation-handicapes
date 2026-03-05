@@ -1,5 +1,6 @@
 import React from "react"
 import '../styles/droits.css'
+import { Link } from "react-router"
 
 
 
@@ -16,7 +17,8 @@ export default function Droits(){
 <div className="container-A">
 
 
-   <h6 id="first-h"> Droit-a-l'éducation </h6>
+     <Link className= "home" to="/education"> Droit-de-leducation </Link>
+       
 
  <img  id= "img-AZ" src="/img/image des services/disability-kids-school-educational-projects-260nw-2036936300.webp" alt="home image1" />
 
@@ -27,9 +29,10 @@ export default function Droits(){
     
 <div className ="container-B">
 
-   <h6 id="first-h">  Droit-au-sport </h6>
+   <Link className= "home" to="/sport"> Droit-au-sport </Link>
 
    <img  id= "img-AB"  src="/img/image des services/Lokomat.jpg" alt="home image1" />
+
 
 
 
@@ -43,7 +46,8 @@ export default function Droits(){
     
 <div className ="container-C">
 
-   <h6 id="first-h"> Droit-du-travail </h6>
+      <Link className="home" to="/travail"> Droit-du-travail </Link>
+
 
    <img  id= "img-AC" src="/img/image des services/istockphoto-1483052139-612x612.jpg" alt="home image1" />
 
@@ -59,7 +63,7 @@ export default function Droits(){
     
 <div className ="container-D">
 
-   <h6 id="first-h">Droit-a-la-natation</h6>
+      <Link className= "home" to="/natation"> Droit-a-la-natation </Link>
 
    <img  id= "img-AD"  src="/img/image des services/rampe-d-handicap-menant-à-la-piscine-6106018 (1).webp" alt="home image1" />
 
@@ -70,7 +74,8 @@ export default function Droits(){
     
 <div className ="container-E">
 
-   <h6 id="first-h">  Droit-a-la-mobilité  </h6>
+  
+   <Link className= "home" to="/mobilite"> Droit-a-la-mobilité </Link>
 
    <img className= "img-AE"  src="/img/materiels pour les hadicapes/leve-personne.jpg" alt="home image1" />
 

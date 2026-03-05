@@ -1,9 +1,14 @@
-
-body{
-    font-family: Arial, sans-serif;
+.home {
     
+    font-size: 50px;
+    margin-top: 10px;
+    font-size: 50px;
+    color: wheat;
+    margin-bottom: 5PX;
+    border-radius: 30PX 30PX ;
+    padding-top: 10PX;
+    padding-bottom: 10PX;
 }
-
 
 .container-main {
     display: flex ;
@@ -57,7 +62,7 @@ body{
 
 .container-D{
 
-    background-color:blue;
+    background-color:rgb(55, 134, 159);
     border-radius: 50%;
     width: 400PX;
     height: 300PX;
@@ -71,7 +76,7 @@ body{
 
 .container-E{
 
-    background-color:blue;
+    background-color:rgb(55, 134, 159);
     border-radius: 50%;
     width: 400PX;
     height: 300PX;
@@ -154,11 +159,3 @@ body{
 
 
 
-
-
-#first-h{
-    text-align: left;
-    font-size: 30PX;
-    margin-top: 30PX;
-    margin-left: 80PX; 
-}

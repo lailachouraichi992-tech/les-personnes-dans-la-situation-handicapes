@@ -5,6 +5,14 @@ import Materieles from "./components/materieles";
 import Droits from "./components/droits";
 import Services from "./components/services";
 
+import Education from "./components/Education";
+import Sport from "./components/Sport";
+import Travail from "./components/Travail";
+import Natation from "./components/Natation";
+import Mobilite  from "./components/Mobilite";
+
+
+
 
 
 function routes() {
@@ -12,12 +20,19 @@ function routes() {
     <Routes>
 
       <Route path="/" element={<Home />} />
-      <Route path="/home" element={<Home />} />
-      
-      <Route path="/materieles" element={<Materieles />} />
-      <Route path="/droits" element={<Droits />} />
-      <Route path="/services" element={<Services />} />
+      <Route path="/Home" element={<Home />} />
+      <Route path="/Materieles" element={<Materieles />} />
+      <Route path="/Droits" element={<Droits />} />
+      <Route path="/Services" element={<Services />} />
 
+
+
+      <Route path="/Education" element={<Education />} />
+      <Route path="/Sport" element={<Sport />} />
+      <Route path="/Travail" element={<Travail />} />
+
+      <Route path="/Natation" element={<Natation />} />
+      <Route path="/Mobilite" element={<Mobilite />} />
 
     </Routes>
   );

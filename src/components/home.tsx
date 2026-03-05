@@ -1,5 +1,6 @@
 import React from "react"
 import '../styles/home.css'
+import { Link } from "react-router"
 
 
 
@@ -10,12 +11,12 @@ export default function Home(){
 
         <>   
         
-        <div className='home '> 
+        <div className='home'> 
 
-            <a id='lien' href="/home" > home </a>
-            <a id='lien' href="/droits"> droits </a>
-            <a id='lien' href="/materieles" > materieles </a>
-            <a id='lien' href="/services" > services </a>
+        <Link className= "home" to="/home"> home </Link>
+        <Link className= "home" to="/droits"> droits </Link>
+        <Link className= "home" to="/materieles" > materieles </Link>
+        <Link className= "home" to="/services" > services  </Link>
 
         </div>
     <hr />
