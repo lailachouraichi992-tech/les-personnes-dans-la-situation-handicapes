@@ -1,4 +1,4 @@
-import '../styles/Sport.css'
+import '../styles/sport.css'
 
 
 export default function Sport(){
