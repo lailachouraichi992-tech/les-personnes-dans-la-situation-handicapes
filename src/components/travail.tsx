@@ -1,4 +1,4 @@
-import '../styles/Travail.css'
+import '../styles/travail.css'
 
 
 export default function Travail(){
