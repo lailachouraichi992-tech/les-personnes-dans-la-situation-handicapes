@@ -1,4 +1,4 @@
-import '../styles/Natation.css'
+import '../styles/natation.css'
 
 
 export default function Natation(){
