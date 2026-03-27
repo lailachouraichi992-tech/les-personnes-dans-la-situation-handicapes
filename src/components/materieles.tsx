@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import '../styles/materieles.css'
 
 
@@ -16,7 +17,7 @@ export default function Materieles() {
 
 <h6  id="h-13"> Les matériels pour les handicapés  </h6>
 
-<p  id="P-13">Les matériels pour les personnes en situation de handicap sont des équipements conçus pour faciliter la mobilité, la communication et l’autonomie au quotidien. Ils comprennent des fauteuils roulants, des béquilles, des prothèses, des appareils auditifs et des outils technologiques adaptés. Ces matériels améliorent la qualité de vie, favorisent l’inclusion sociale et permettent aux personnes handicapées de participer activement à la société avec plus d’indépendance.   </p>
+<p id="P-13">Les matériels pour les personnes en situation de handicap sont des équipements conçus pour faciliter la mobilité, la communication et l’autonomie au quotidien. Ils comprennent des fauteuils roulants, des béquilles, des prothèses, des appareils auditifs et des outils technologiques adaptés. Ces matériels améliorent la qualité de vie, favorisent l’inclusion sociale et permettent aux personnes handicapées de participer activement à la société avec plus d’indépendance.   </p>
  
 
 
@@ -34,8 +35,7 @@ export default function Materieles() {
      <img id="img-sqr-1"src="/img/materiels pour les hadicapes/Wheelchairs.png" alt="home image1" />
 
         
-     <a className='lien' href="/Wheelchairs "> Wheelchairs </a>
-
+  <Link className="lien" to="/Fauteuilroulantelectrique" > Fauteuilroulantelectrique </Link>
 
             </div>
 
@@ -44,10 +44,10 @@ export default function Materieles() {
 
             <div id="squiere-B">
 
- <img id="img-sqr-2" src="/img/materiels pour les hadicapes/voiturette-manuelle-standard.webp" alt="home image1" />
+ <img id="img-sqr-2" src="/img/materiels pour les hadicapes/FS958LBCGPY-38-1.jpg" alt="home image1" />
 
- <a className='lien' href="/voiturette-manuelle "> voiturette-manuelle  </a>
 
+  <Link className="lien" to="/Fauteuilroulant" > Fauteuil-Roulant  </Link>
 
 
 
@@ -62,10 +62,11 @@ export default function Materieles() {
             <div className="squiere-C">
 
 
-<img id="img-sqr-3" src="/img/materiels pour les hadicapes/rollator-dynamico-dinterieur-pour-enfant-6-a-8-ans.jpg" alt="home image1" />
+<img id="img-sqr-3" src="/img/materiels pour les hadicapes/escaliers-avec-des-cannes-anglaises.jpg" alt="home image1" />
 
 
-    <a className='lien' href="/rollator-dynamico"> rollator-dynamico </a>
+      <Link className="lien" to="/Cannedemarche" > Canne-de-marche  </Link>
+
 
 
 
@@ -84,7 +85,7 @@ export default function Materieles() {
 
         
 
-                <a className='lien' href="/leve-personne"> leve-personne </a>
+      <Link className="lien" to="/Levepersonne" > leve-personne  </Link>
 
 
 
@@ -98,14 +99,9 @@ export default function Materieles() {
             <div id="squiere-E">
 
 
-                <img id="img-sqr-5" src="/img/materiels pour les hadicapes/grillo-g2-photo-avec-personne.jpg" alt="home image1" />
+        <img id="img-sqr-5" src="/img/materiels pour les hadicapes/grillo-g2-photo-avec-personne.jpg" alt="home image1" />
 
-            
-                <a className='lien' href="/grillo"> grillo  </a>
-                
-
-
-
+        <Link className="lien" to="/Deambulateur" > Deambulateur  </Link>
 
 
             </div>
@@ -119,8 +115,7 @@ export default function Materieles() {
         alt="Aloeverastabilisée image1" />
 
 
-                <a className='lien' href="/rampe "> rampe </a>
-
+      <Link className="lien" to="/Rampedacces" > Rampe-dacces  </Link>
 
 
 
