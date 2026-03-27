@@ -10,6 +10,7 @@ import Sport from "./components/sport";
 import Travail from "./components/travail";
 import Natation from "./components/natation";
 import Mobilite from "./components/mobilite";
+
 import Fauteuilroulant from "./components/fauteuilroulant";
 import Fauteuilroulantelectrique from "./components/fauteuilroulantelectrique";
 import Deambulateur from "./components/deambulateur";
