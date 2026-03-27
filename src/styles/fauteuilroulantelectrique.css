@@ -1,0 +1,251 @@
+.BOX-W {
+  background-color: rgb(116, 198, 248);
+  width: 900PX;
+  height: 400PX;
+
+  border-radius: 90PX 30PX 90PX 20px;
+  margin-left: 150PX;
+  border: rgb(30, 108, 130) 15PX double;
+
+
+}
+
+
+#first-h{
+
+  text-align: center;
+  padding-top: 30PX;
+  font-size: 30PX;
+  color: black;
+  padding-left: 40PX;
+  padding-right: 40PX;
+
+
+
+}
+
+#first-p {
+  text-align: center;
+  margin-top: 90PX;
+  color: black;
+  font-size: 20PX;
+  padding-left: 40PX;
+  padding-right: 40PX;
+}
+
+.h-41 {
+  margin-top: 40PX;
+  color: black;
+  padding-left: 60PX;
+  padding-right: 10PX;
+
+}
+
+
+
+
+#img-1 {
+  margin-top: 30PX;
+  border: rgb(30, 108, 130) 5PX solid;
+  width: 60% ;
+  height:50% ;
+  border-radius: 50PX 90PX;
+  margin-left: 50PX;
+
+
+
+
+}
+
+
+#img-2 {
+    margin-top: 30PX;
+  border: rgb(30, 108, 130) 5PX solid;
+    border-radius: 50PX 90PX;
+
+  width: 60% ;
+  height:50% ;
+  margin-left: 50PX;
+
+
+
+}
+
+
+#img-3 {
+   margin-top: 30PX;
+  border: rgb(30, 108, 130) 5PX solid;
+    border-radius: 50PX 90PX;
+
+  width: 60% ;
+  height:50% ;
+  margin-left: 50PX;
+
+
+
+}
+
+
+
+#img-4 {
+   margin-top: 30PX;
+  border: rgb(30, 108, 130) 5PX solid;
+    border-radius: 50PX 90PX;
+
+  width: 60% ;
+  height:50% ;
+  margin-left: 50PX;
+
+
+
+}
+
+
+#img-5 {
+   margin-top: 30PX;
+  border: rgb(30, 108, 130) 5PX solid;
+    border-radius: 50PX 90PX;
+
+  width: 60% ;
+  height:50% ;
+  margin-left: 50PX;
+
+
+}
+
+
+#img-6 {
+   margin-top: 30PX;
+  border: rgb(30, 108, 130) 5PX solid;
+    border-radius: 50PX 90PX;
+
+  width: 60% ;
+  height:50% ;
+  margin-left: 50PX;
+
+
+
+}
+
+
+
+
+
+.BOX-A {
+  width: 300PX;
+  height: 400PX;
+
+  background-color: rgb(116, 198, 248);
+   
+
+  margin-left: 180PX;
+    border-radius: 90PX 30PX 90PX 20px;
+    border: rgb(30, 108, 130) 3PX solid;
+
+  
+  
+  margin-left: 80PX;
+ margin-top: 150PX;
+    display: inline-block;
+
+
+
+}
+
+
+
+.BOX-B {
+  
+    width: 300PX;
+    height: 400PX;
+    background-color: rgb(116, 198, 248);
+    border-radius: 90PX 30PX 90PX 20px;
+    border: rgb(30, 108, 130) 3PX solid;
+    margin-left: 140PX;
+    display: inline-block;
+    margin-top: 150PX;
+
+
+}
+
+
+
+
+.BOX-C {
+  width: 300PX;
+  height: 400PX;
+  
+  background-color: rgb(116, 198, 248);
+   border-radius: 90PX 30PX 90PX 20px;
+    border: rgb(30, 108, 130) 3PX solid;
+
+  display: inline-block;
+  margin-right: 140PX;
+    margin-top: 150PX;
+
+    display: inline-block;
+    float: inline-end;
+
+
+
+
+}
+
+
+
+.BOX-D {
+  width: 300PX;
+  height: 400PX;
+   margin-top: 180PX;
+      margin-left: 200PX;
+
+
+    border-radius: 90PX 30PX 90PX 20px;
+    border: rgb(30, 108, 130) 3PX solid;
+
+  background-color: rgb(116, 198, 248);
+  border-radius: 50PX 60PX;
+  display: inline-block;
+  margin: 40PX;
+
+
+
+
+
+}
+
+
+
+.BOX-E {
+  width: 300PX;
+  height: 400PX;
+   margin-top: 180PX;
+   border-radius: 90PX 30PX 90PX 20px;
+    border: rgb(30, 108, 130) 3PX solid;
+
+  background-color: rgb(116, 198, 248);
+  display: inline-block;
+  margin-left : 150PX;
+
+
+
+
+
+
+
+}
+
+
+.BOX-F {
+  
+    width: 300PX; 
+    height: 400PX; 
+    margin-top: 180PX;
+    border-radius: 90PX 30PX 90PX 20px;
+    border: rgb(30, 108, 130) 3PX solid;
+    background-color: rgb(116, 198, 248);
+    display: inline-block;
+    float: right;
+    margin-right: 150PX;
+
+}
