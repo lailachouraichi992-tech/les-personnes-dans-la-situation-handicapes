@@ -207,7 +207,7 @@
     
     width: 300PX ;
     height:  400PX;   
-    background-color:rgb(13, 157, 201);
+    background-color:rgb(205, 243, 255);
     border-radius: 50PX 60PX;
     display: inline-block;
     margin: 40PX;
@@ -243,7 +243,7 @@
 .squiere-C{
  width: 300PX ;
     height:  400PX;   
-    background-color:rgb(13, 157, 201);
+   background-color:rgb(205, 243, 255);
     border-radius: 50PX 60PX;
     display: inline-block;
     margin: 40PX;
@@ -261,7 +261,7 @@
 #squiere-D{
  width: 300PX ;
     height:  400PX;   
-    background-color:rgb(13, 157, 201);
+   background-color:rgb(205, 243, 255);
     border-radius: 50PX 60PX;
     display: inline-block;
     margin: 40PX;
@@ -277,7 +277,7 @@
 #squiere-E{
 width: 300PX ;
 height:  400PX;   
-    background-color:rgb(13, 157, 201);
+   background-color:rgb(205, 243, 255);
 border-radius: 50PX 60PX;
 display: inline-block;
 margin-right: 800PX;
@@ -311,7 +311,7 @@ border: black solid 2PX;
 #squiere-F{
 width: 300PX ;
 height:  400PX;   
-    background-color:rgb(13, 157, 201);
+   background-color:rgb(205, 243, 255);
 border-radius: 50PX 60PX;
 display: inline-block;
     margin-top: 200PX;
