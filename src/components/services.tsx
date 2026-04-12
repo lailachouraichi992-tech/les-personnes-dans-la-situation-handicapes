@@ -1,7 +1,7 @@
-import '../styles/services.css'
+import '../styles/Services.css'
 
 
-export default function services(){
+export default function Services(){
     
 
     
@@ -10,41 +10,50 @@ export default function services(){
 
         <>  
          
+        <div id="Container">
+          <h1> Services-des-personnes-en-situation-d'handicapes</h1>
         
-     <h1 className="titre-1">Nos Services </h1>
-        
-    <div className="continer-1">
+    <div className="container-A">
 
-        <p className="paragraph"> Services_d'education</p>
-        <img  className="img" src="/img/image des services/disability-kids-school-educational-projects-260nw-2036936300.webp" alt=""/>
+        <p id="paragraph"> Services_d'education</p>
+        <img id="img" src="/img/image des services/disability-kids-school-educational-projects-260nw-2036936300.webp" alt=""/>
     
     </div>
 
 
-    <div  className="continer-2">
+  <div className="container-B">
 
-        <p className="paragraph"> Services_natation </p>
-        <img  className="img"src="/img/image des services/rampe-d-handicap-menant-à-la-piscine-6106018 (1).webp" alt="" />
-
-    </div>
-
-
-    <div className="continer-3">
-
-            <p className="paragraph"> Services_rééducation</p>
-            <img className="img" src="/img/image des services\Lokomat.jpg" alt="" />
+        <p id="paragraph"> Services_Travail </p>
+        <img  id="img"src="/img/image des services/istockphoto-1483052139-612x612.jpg" alt="" />
 
     </div>
 
 
-    <div  className="continer-4">
+   <div className="container-C">
 
-        <p className="paragraph"> Services_du-travail </p>
-        <img  className="img"src="/img/image des services/istockphoto-1483052139-612x612.jpg" alt="" />
+            <p id="paragraph"> Services_rééducation</p>
+            <img id="img" src="/img/image des services\Lokomat.jpg" alt="" />
+
+    </div>
+
+
+    <div className="container-D">
+
+        <p id="paragraph"> Services_Sport </p>
+        <img id="img"src="/img/images des hadicapes/1b1be62b3a4ee08227435e656e11e254.webp" alt="" />
 
     </div>
        
 
+
+    <div className="container-E">
+
+        <p id="paragraph"> Services_de-Mobilité </p>
+        <img id="img"src="/img/materiels pour les hadicapes/rollator-dynamico-dinterieur-pour-enfant-6-a-8-ans.jpg" alt="" />
+
+    </div>
+       
+</div>
 
      
         </>
