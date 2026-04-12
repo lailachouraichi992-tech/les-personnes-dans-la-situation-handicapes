@@ -1,33 +1,60 @@
-.home {
+
+
+#Container{
+
+    background-color: rgb(196, 192, 192);
+    border: rgb(48, 109, 134) dotted 4PX;
+    box-shadow: bisque 10PX 30PX 10PX 30PX;
+    width:1340PX ;
+    height: 2000PX;
+}
+
+
+
+h1{
+    box-shadow: gray 70PX 30PX ;
+    display: inline-flex;
+    font-size: 40PX;
+    text-align: center;
+    margin-left: 300PX;
+    margin-top: 90PX;
+
+}
+
+
+
+
+
+.titre-1{
+
+    text-align: center;
+    color: rgb(13, 157, 201);
+    box-shadow: 20PX 1PX 20px blue ;
+
+}
+
+
+#home {
     
     font-size: 50px;
-    margin-top: 10px;
-    font-size: 50px;
-    color: wheat;
+    margin-top: 90px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
     margin-bottom: 5PX;
     border-radius: 30PX 30PX ;
-    padding-top: 10PX;
     padding-bottom: 10PX;
 }
 
-.container-main {
-    display: flex ;
-    flex-wrap: wrap ;  
-    justify-content: space-evenly;
-    gap: 2rem ;
-    margin-top: 90PX;
-    margin-bottom: 90PX;
-
-
-}
-
-
-.container-A{
-    background-color:rgb(13, 157, 201);
-    border-radius: 50%;
+#container-A{
+   
+    background-color:rgb(205, 243, 255);
+    border-radius: 90PX 0PX 80PX 90PX;
     width: 400PX;
-    height: 300PX;
-    float: inline-end;
+    height: 390PX;
+    margin-top: 200PX;
+    float: inline-start;
+    margin-left: 200PX;
 
 
 
@@ -35,23 +62,29 @@
 
 
 
-.container-B{
-    background-color:rgb(13, 157, 201);
-    border-radius: 50%;
+#container-B{
+   
+    background-color:rgb(114, 143, 171);
+    border-radius: 90PX 0PX 80PX 90PX;
     width: 400PX;
-    height: 300PX;
-    float: inline-end;
-
+    height: 390PX;
+    margin-top: 200PX;
+    float: inline-start;
+    margin-left: 200PX;
 }
 
 
 
-.container-C{
-    background-color:rgb(13, 157, 201);
-    border-radius: 50%;
+#container-C{
+    
+    background-color:rgb(205, 243, 255);
+    border-radius: 90PX 0PX 80PX 90PX;
     width: 400PX;
-    height: 300PX;
-    float: inline-end;
+    height: 390PX;
+    margin-top: 200PX;
+    float: inline-start;
+    margin-left: 200PX;
+    
 
    
 
@@ -60,102 +93,99 @@
 
 
 
-.container-D{
+#container-D{
 
-    background-color:rgb(55, 134, 159);
-    border-radius: 50%;
+   
+    background-color:rgb(114, 143, 171);
+    border-radius: 90PX 0PX 80PX 90PX;
     width: 400PX;
-    height: 300PX;
+    height: 390PX;
     margin-top: 200PX;
-    float: inline-end;
+    float: inline-start;
+    margin-left: 200PX;
+
 
 
 }
 
 
 
-.container-E{
+#container-E{
 
-    background-color:rgb(55, 134, 159);
-    border-radius: 50%;
+    background-color:rgb(114, 143, 171);
+    border-radius: 90PX 0PX 80PX 90PX;
     width: 400PX;
-    height: 300PX;
+    height: 390PX;
     margin-top: 200PX;
-    float: inline-end;
+    float: inline-start;
+    margin-left: 500PX;
 
 
    
 
 }
+
+
 
 
 #img-AZ{
-
-    width: 320PX;
+    
+    width: 280PX;
     height: 200PX;
     border-radius: 50%;
-    border: black 5PX solid;
-    margin-top: 20PX;
+    margin-top: 10PX;
     margin-left: 90PX;
 }
+
 
 
 
 #img-AB{
-  
-    width: 320PX;
+    
+    width: 280PX;
     height: 200PX;
     border-radius: 50%;
-    border: black 5PX solid;
-    margin-top: 20PX;
+    margin-top: 60PX;
     margin-left: 90PX;
-
-
-
 }
 
-#img-AC{ 
-   
-   width: 320PX;
+
+#img-AC{
+    
+    width: 280PX;
     height: 200PX;
     border-radius: 50%;
-    border: black 5PX solid;
-    margin-top: 20PX;
+    margin-top: 60PX;
     margin-left: 90PX;
-
 }
+
+
+#img-AZ{
+    
+    width: 280PX;
+    height: 200PX;
+    border-radius: 50%;
+    margin-top: 60PX;
+    margin-left: 90PX;
+}
+
 
 #img-AD{
-   
-  width: 320PX;
-    height: 200PX;
-    border-radius: 50%;
-    border: black 5PX solid;
-    margin-top: 20PX;
-    margin-left: 90PX;
-}
-
-
-.img-AE{
-  width: 320PX;
-    height: 200PX;
-    border-radius: 50%;
-    border: black 5PX solid;
-    margin-top: 20PX;
-    margin-left: 90PX;
-
-}
-
-
-#img-F{
     
-  width: 320PX;
+    width: 280PX;
     height: 200PX;
     border-radius: 50%;
-    border: black 5PX solid;
-    margin-top: 20PX;
+    margin-top: 60PX;
     margin-left: 90PX;
 }
 
 
+#img-AE{
+
+    width: 280PX;
+    height: 200PX;
+    border-radius: 50%;
+    margin-top: 60PX;
+    margin-left: 90PX;
+}
 
